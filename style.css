@@ -1,0 +1,280 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+	box-sizing: border-box;
+    background-color: transparent;
+}
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background-color: transparent;
+  }
+.sidebar {
+	height: 100%;
+	width:0;
+	position:fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	border: #20b2aa solid;
+}
+
+	.sidebar a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 18px;
+		color: black;
+		display: block;
+		transition: 0.3s;
+	}
+
+		.sidebar a:hover {
+			color: 	#20b2aa;
+		}
+
+	.sidebar .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
+.openbtn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: white;
+	color: 	#20b2aa;
+	padding: 10px 15px;
+	border: none;
+}
+
+	.openbtn:hover {
+		background-color:transparent;
+	}
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
+}
+
+  
+span{
+	color: #20b2aa;
+}
+.content{
+	position: absolute;
+	top: 80%;
+	left:8%;
+	transform: translateY(-50%);
+    color: black;
+
+}
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 91%);
+	color: white;
+}
+.about img{
+	height: auto;
+	width: 430px;
+	bor
+}
+.about-text{
+	width: 550px;
+}
+#main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	-webkit-border-radius: 70px;
+-moz-border-radius: 70px;
+border-radius: 70px;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+button{
+	color :	black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s;
+	background-color: white;
+}
+button:hover{
+	background-color: #20b2aa;
+	border: 2px solid #20b2aa;
+	cursor: pointer;
+}
+#service{
+	background: white;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: black;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background-color: transparent;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #20b2aa;
+
+}
+.card label {
+	color: rgba(9,9,121,1);
+    padding-right: 10px;
+    font-size: 1rem;
+	display:grid
+}
+
+h5{
+	color: #20b2aa;
+	font-size: 23px;
+	margin-bottom: 15px;
+	background-color: transparent;
+}
+.pra p{
+	color: rgba(9,9,121,1);
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+	background-color: transparent;
+}
+#contact {
+	display: flex;
+	flex-direction: column ;
+	background-color: transparent;
+}
+
+#contact h1 {
+	margin: 50px;
+	text-align: center;
+	font-size: 50px;
+	background-color: transparent;
+	color: white;
+
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #20b2aa;
+	
+}
+.input {
+	padding: 15px 20px;
+	margin: 15px;
+	width: 40%;
+	border: none;
+	outline: none;
+	border: radius 25px; ;
+	background-color: white;
+}
+#message {
+	margin: 15px;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: white;
+}
+#submit {
+	padding: 15px 20px;
+	margin: 30px;
+	width: 15%;
+	border-radius: 20px;
+	background-color: white;
+	color:white;
+	border: none;
+	outline: none;
+}
+#submit:hover {
+	background-color: #fcfc;
+	color: white;
+	cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: gainsboro;
+    color: black;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
+  .fa:hover {
+	opacity: 0.7;
+  }
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
